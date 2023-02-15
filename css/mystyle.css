@@ -1,0 +1,99 @@
+body
+{
+	background-color: #ccc;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+}
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 35px;
+	font-weight: bold;
+}
+h3{font-size: 30px;
+	font-weight: bold;
+	}
+
+
+.carousel-inner img
+{
+  width: 100%;
+  margin: auto;
+}
+
+@media(max-width: 600px)
+{
+.carousel-caption{
+  display: none;
+}
+}
+
+.navbar
+{
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  background-color: #008080;
+  border: 0px;
+  font-size: 18px !important;
+
+}
+
+.navbar li a, .navbar .navbar-brand
+{
+  color: #fff;
+}
+
+
+.jumbotron{
+  border-radius:0;
+  transition: box-shadow 0.5s;
+  background-color: #008080 !important;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .3);
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: red !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+  background-color: #fff !important;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #f4511e;
+  color: #fff;
+}
+
+.bg-4 {
+  background-color: #008080;
+  color: #fff;
+  padding: 20px;
+}
+.bg-4 a{color: orange; font-weight: bold;}
